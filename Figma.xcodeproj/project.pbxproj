@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171D764B2AE05C26009DC7F1 /* FigmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D764A2AE05C26009DC7F1 /* FigmaApp.swift */; };
+		171D764D2AE05C26009DC7F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D764C2AE05C26009DC7F1 /* ContentView.swift */; };
+		171D764F2AE05C28009DC7F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171D764E2AE05C28009DC7F1 /* Assets.xcassets */; };
+		171D76532AE05C28009DC7F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171D76522AE05C28009DC7F1 /* Preview Assets.xcassets */; };
+		171D765D2AE05C28009DC7F1 /* FigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D765C2AE05C28009DC7F1 /* FigmaTests.swift */; };
+		171D76672AE05C29009DC7F1 /* FigmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76662AE05C29009DC7F1 /* FigmaUITests.swift */; };
+		171D76692AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76682AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		171D76592AE05C28009DC7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171D763F2AE05C26009DC7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D76462AE05C26009DC7F1;
+			remoteInfo = Figma;
+		};
+		171D76632AE05C29009DC7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171D763F2AE05C26009DC7F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D76462AE05C26009DC7F1;
+			remoteInfo = Figma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171D76472AE05C26009DC7F1 /* Figma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Figma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D764A2AE05C26009DC7F1 /* FigmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaApp.swift; sourceTree = "<group>"; };
+		171D764C2AE05C26009DC7F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		171D764E2AE05C28009DC7F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		171D76502AE05C28009DC7F1 /* Figma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Figma.entitlements; sourceTree = "<group>"; };
+		171D76522AE05C28009DC7F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		171D76582AE05C28009DC7F1 /* FigmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D765C2AE05C28009DC7F1 /* FigmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaTests.swift; sourceTree = "<group>"; };
+		171D76622AE05C29009DC7F1 /* FigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D76662AE05C29009DC7F1 /* FigmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaUITests.swift; sourceTree = "<group>"; };
+		171D76682AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171D76442AE05C26009DC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D76552AE05C28009DC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D765F2AE05C29009DC7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171D763E2AE05C26009DC7F1 = {
+			isa = PBXGroup;
+			children = (
+				171D76492AE05C26009DC7F1 /* Figma */,
+				171D765B2AE05C28009DC7F1 /* FigmaTests */,
+				171D76652AE05C29009DC7F1 /* FigmaUITests */,
+				171D76482AE05C26009DC7F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		171D76482AE05C26009DC7F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171D76472AE05C26009DC7F1 /* Figma.app */,
+				171D76582AE05C28009DC7F1 /* FigmaTests.xctest */,
+				171D76622AE05C29009DC7F1 /* FigmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171D76492AE05C26009DC7F1 /* Figma */ = {
+			isa = PBXGroup;
+			children = (
+				171D764A2AE05C26009DC7F1 /* FigmaApp.swift */,
+				171D764C2AE05C26009DC7F1 /* ContentView.swift */,
+				171D764E2AE05C28009DC7F1 /* Assets.xcassets */,
+				171D76502AE05C28009DC7F1 /* Figma.entitlements */,
+				171D76512AE05C28009DC7F1 /* Preview Content */,
+			);
+			path = Figma;
+			sourceTree = "<group>";
+		};
+		171D76512AE05C28009DC7F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				171D76522AE05C28009DC7F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		171D765B2AE05C28009DC7F1 /* FigmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				171D765C2AE05C28009DC7F1 /* FigmaTests.swift */,
+			);
+			path = FigmaTests;
+			sourceTree = "<group>";
+		};
+		171D76652AE05C29009DC7F1 /* FigmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				171D76662AE05C29009DC7F1 /* FigmaUITests.swift */,
+				171D76682AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift */,
+			);
+			path = FigmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171D76462AE05C26009DC7F1 /* Figma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D766C2AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "Figma" */;
+			buildPhases = (
+				171D76432AE05C26009DC7F1 /* Sources */,
+				171D76442AE05C26009DC7F1 /* Frameworks */,
+				171D76452AE05C26009DC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Figma;
+			productName = Figma;
+			productReference = 171D76472AE05C26009DC7F1 /* Figma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		171D76572AE05C28009DC7F1 /* FigmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D766F2AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "FigmaTests" */;
+			buildPhases = (
+				171D76542AE05C28009DC7F1 /* Sources */,
+				171D76552AE05C28009DC7F1 /* Frameworks */,
+				171D76562AE05C28009DC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D765A2AE05C28009DC7F1 /* PBXTargetDependency */,
+			);
+			name = FigmaTests;
+			productName = FigmaTests;
+			productReference = 171D76582AE05C28009DC7F1 /* FigmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		171D76612AE05C29009DC7F1 /* FigmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D76722AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "FigmaUITests" */;
+			buildPhases = (
+				171D765E2AE05C29009DC7F1 /* Sources */,
+				171D765F2AE05C29009DC7F1 /* Frameworks */,
+				171D76602AE05C29009DC7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D76642AE05C29009DC7F1 /* PBXTargetDependency */,
+			);
+			name = FigmaUITests;
+			productName = FigmaUITests;
+			productReference = 171D76622AE05C29009DC7F1 /* FigmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171D763F2AE05C26009DC7F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					171D76462AE05C26009DC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					171D76572AE05C28009DC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 171D76462AE05C26009DC7F1;
+					};
+					171D76612AE05C29009DC7F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 171D76462AE05C26009DC7F1;
+					};
+				};
+			};
+			buildConfigurationList = 171D76422AE05C26009DC7F1 /* Build configuration list for PBXProject "Figma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171D763E2AE05C26009DC7F1;
+			productRefGroup = 171D76482AE05C26009DC7F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171D76462AE05C26009DC7F1 /* Figma */,
+				171D76572AE05C28009DC7F1 /* FigmaTests */,
+				171D76612AE05C29009DC7F1 /* FigmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171D76452AE05C26009DC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D76532AE05C28009DC7F1 /* Preview Assets.xcassets in Resources */,
+				171D764F2AE05C28009DC7F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D76562AE05C28009DC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D76602AE05C29009DC7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171D76432AE05C26009DC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D764D2AE05C26009DC7F1 /* ContentView.swift in Sources */,
+				171D764B2AE05C26009DC7F1 /* FigmaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D76542AE05C28009DC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D765D2AE05C28009DC7F1 /* FigmaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D765E2AE05C29009DC7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D76672AE05C29009DC7F1 /* FigmaUITests.swift in Sources */,
+				171D76692AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171D765A2AE05C28009DC7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D76462AE05C26009DC7F1 /* Figma */;
+			targetProxy = 171D76592AE05C28009DC7F1 /* PBXContainerItemProxy */;
+		};
+		171D76642AE05C29009DC7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D76462AE05C26009DC7F1 /* Figma */;
+			targetProxy = 171D76632AE05C29009DC7F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		171D766A2AE05C29009DC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		171D766B2AE05C29009DC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		171D766D2AE05C29009DC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Figma/Figma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Figma/Preview Content\"";
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.Figma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171D766E2AE05C29009DC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Figma/Figma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Figma/Preview Content\"";
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.Figma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		171D76702AE05C29009DC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.FigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Figma";
+			};
+			name = Debug;
+		};
+		171D76712AE05C29009DC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.FigmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Figma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Figma";
+			};
+			name = Release;
+		};
+		171D76732AE05C29009DC7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.FigmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Figma;
+			};
+			name = Debug;
+		};
+		171D76742AE05C29009DC7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BZ86G6QKHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileAppDev.FigmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Figma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171D76422AE05C26009DC7F1 /* Build configuration list for PBXProject "Figma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D766A2AE05C29009DC7F1 /* Debug */,
+				171D766B2AE05C29009DC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D766C2AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "Figma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D766D2AE05C29009DC7F1 /* Debug */,
+				171D766E2AE05C29009DC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D766F2AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "FigmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D76702AE05C29009DC7F1 /* Debug */,
+				171D76712AE05C29009DC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D76722AE05C29009DC7F1 /* Build configuration list for PBXNativeTarget "FigmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D76732AE05C29009DC7F1 /* Debug */,
+				171D76742AE05C29009DC7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171D763F2AE05C26009DC7F1 /* Project object */;
+}
