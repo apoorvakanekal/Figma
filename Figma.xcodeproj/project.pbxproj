@@ -14,6 +14,9 @@
 		171D765D2AE05C28009DC7F1 /* FigmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D765C2AE05C28009DC7F1 /* FigmaTests.swift */; };
 		171D76672AE05C29009DC7F1 /* FigmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76662AE05C29009DC7F1 /* FigmaUITests.swift */; };
 		171D76692AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76682AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift */; };
+		171D76762AE05C84009DC7F1 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76752AE05C84009DC7F1 /* HomePageView.swift */; };
+		171D76782AE05C92009DC7F1 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76772AE05C92009DC7F1 /* AddView.swift */; };
+		171D767A2AE05C9E009DC7F1 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D76792AE05C9E009DC7F1 /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		171D76622AE05C29009DC7F1 /* FigmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		171D76662AE05C29009DC7F1 /* FigmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaUITests.swift; sourceTree = "<group>"; };
 		171D76682AE05C29009DC7F1 /* FigmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		171D76752AE05C84009DC7F1 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		171D76772AE05C92009DC7F1 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		171D76792AE05C9E009DC7F1 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				171D764A2AE05C26009DC7F1 /* FigmaApp.swift */,
 				171D764C2AE05C26009DC7F1 /* ContentView.swift */,
+				171D76752AE05C84009DC7F1 /* HomePageView.swift */,
+				171D76772AE05C92009DC7F1 /* AddView.swift */,
+				171D76792AE05C9E009DC7F1 /* BookingView.swift */,
 				171D764E2AE05C28009DC7F1 /* Assets.xcassets */,
 				171D76502AE05C28009DC7F1 /* Figma.entitlements */,
 				171D76512AE05C28009DC7F1 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171D76782AE05C92009DC7F1 /* AddView.swift in Sources */,
 				171D764D2AE05C26009DC7F1 /* ContentView.swift in Sources */,
+				171D76762AE05C84009DC7F1 /* HomePageView.swift in Sources */,
 				171D764B2AE05C26009DC7F1 /* FigmaApp.swift in Sources */,
+				171D767A2AE05C9E009DC7F1 /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
